@@ -1,6 +1,6 @@
 # 07. Conflictos en Git y cómo resolverlos
 
-## 📖 Introducción
+## Introducción
 
 Cuando trabajamos solos en un proyecto es poco común encontrar conflictos. Sin embargo, en un equipo de desarrollo varias personas pueden modificar el mismo archivo al mismo tiempo.
 
@@ -10,7 +10,7 @@ La buena noticia es que los conflictos son normales y aprender a resolverlos es 
 
 ---
 
-## 🎯 Objetivos de aprendizaje
+## Objetivos de aprendizaje
 
 Al finalizar este tema podrás:
 
@@ -21,7 +21,7 @@ Al finalizar este tema podrás:
 
 ---
 
-## 🤔 ¿Qué es un conflicto?
+## ¿Qué es un conflicto?
 
 Un conflicto ocurre cuando Git encuentra cambios incompatibles entre dos versiones de un mismo archivo y **no puede fusionarlos automáticamente**.
 
@@ -35,7 +35,7 @@ En estos casos Git detiene la operación y espera que el desarrollador tome una 
 
 ---
 
-## 📝 Un ejemplo sencillo
+## Un ejemplo sencillo
 
 Imagina que existe el siguiente archivo:
 
@@ -59,7 +59,7 @@ Cuando intentan unir ambos cambios, Git no sabe cuál debe conservar y genera un
 
 ---
 
-## 🔀 ¿Cuándo suelen aparecer conflictos?
+## ¿Cuándo suelen aparecer conflictos?
 
 Los conflictos son comunes cuando ejecutas operaciones como:
 
@@ -77,7 +77,7 @@ También pueden aparecer durante un `git rebase`, aunque ese tema lo veremos má
 
 ---
 
-## 👀 ¿Cómo se ve un conflicto?
+## ¿Cómo se ve un conflicto?
 
 Git marca el archivo con indicadores especiales:
 
@@ -99,7 +99,7 @@ Tu trabajo consiste en decidir cuál conservar o cómo combinarlas.
 
 ---
 
-## 🛠️ Cómo resolver un conflicto paso a paso
+## Cómo resolver un conflicto paso a paso
 
 ### 1. Revisa qué archivos tienen conflictos
 
@@ -141,7 +141,7 @@ git commit
 
 ---
 
-## 💻 Ejercicio práctico
+## Ejercicio práctico
 
 1. Crea una nueva rama.
 
@@ -171,7 +171,7 @@ git merge feature/prueba-conflicto
 
 ---
 
-## ✅ Buenas prácticas
+## Buenas prácticas
 
 * Haz `git pull` antes de empezar a trabajar.
 * Realiza commits pequeños y frecuentes.
@@ -181,7 +181,7 @@ git merge feature/prueba-conflicto
 
 ---
 
-## ⚠️ Errores comunes
+## Errores comunes
 
 * Eliminar las marcas del conflicto sin revisar el contenido.
 * Elegir una versión y perder cambios importantes de la otra.
@@ -190,7 +190,7 @@ git merge feature/prueba-conflicto
 
 ---
 
-## 📌 Resumen
+## Resumen
 
 Un conflicto en Git no significa que algo esté roto; simplemente indica que Git necesita ayuda para decidir cómo combinar dos cambios incompatibles.
 
@@ -198,7 +198,7 @@ Resolver conflictos es parte del trabajo diario de los equipos de desarrollo y, 
 
 ---
 
-## 📝 Actividad para el estudiante
+## Actividad para el estudiante
 
 1. Simula un conflicto siguiendo el ejercicio práctico.
 2. Resuélvelo manualmente.

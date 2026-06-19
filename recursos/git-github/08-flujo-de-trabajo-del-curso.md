@@ -1,6 +1,6 @@
 # 08. Flujo de trabajo del curso
 
-## 📖 Introducción
+## Introducción
 
 En el mundo profesional no es recomendable desarrollar directamente sobre la rama principal (`main`). En su lugar, cada nueva funcionalidad o corrección se realiza en una rama independiente y, una vez terminada, se integra al proyecto mediante un **Pull Request (PR)**.
 
@@ -8,7 +8,7 @@ Durante este curso seguiremos un flujo de trabajo similar al utilizado por equip
 
 ---
 
-## 🎯 Objetivos de aprendizaje
+## Objetivos de aprendizaje
 
 Al finalizar este tema podrás:
 
@@ -20,7 +20,7 @@ Al finalizar este tema podrás:
 
 ---
 
-# 🔄 Flujo general de trabajo
+# Flujo general de trabajo
 
 Cada vez que debas realizar una actividad o desarrollar una nueva funcionalidad, seguirás estos pasos:
 
@@ -53,7 +53,7 @@ Este flujo ayuda a evitar conflictos y permite revisar el trabajo antes de incor
 
 ---
 
-# 🚀 Paso 1: Actualizar la rama principal
+# Paso 1: Actualizar la rama principal
 
 Antes de comenzar cualquier tarea, asegúrate de tener la última versión del proyecto.
 
@@ -66,7 +66,7 @@ Así evitarás trabajar sobre una versión desactualizada.
 
 ---
 
-# 🌿 Paso 2: Crear una nueva rama
+# Paso 2: Crear una nueva rama
 
 Cada actividad debe desarrollarse en una rama propia.
 
@@ -88,7 +88,7 @@ Utiliza nombres descriptivos y fáciles de entender.
 
 ---
 
-# 💻 Paso 3: Desarrollar la funcionalidad
+# Paso 3: Desarrollar la funcionalidad
 
 Realiza todos los cambios necesarios en tu proyecto.
 
@@ -98,7 +98,7 @@ Durante este proceso es recomendable guardar cambios frecuentemente mediante com
 
 ---
 
-# 💾 Paso 4: Crear un commit
+# Paso 4: Crear un commit
 
 Una vez tengas un avance importante:
 
@@ -111,7 +111,7 @@ El mensaje debe describir claramente qué cambió.
 
 ---
 
-# ☁️ Paso 5: Subir la rama a GitHub
+# Paso 5: Subir la rama a GitHub
 
 Para compartir tu trabajo con el repositorio remoto:
 
@@ -123,7 +123,7 @@ Ahora la rama estará disponible en GitHub.
 
 ---
 
-# 🔀 Paso 6: Crear un Pull Request
+# Paso 6: Crear un Pull Request
 
 Desde GitHub podrás crear un Pull Request para solicitar que tus cambios sean revisados antes de integrarse a `main`.
 
@@ -138,7 +138,7 @@ En este curso, el Pull Request también servirá como mecanismo para entregar al
 
 ---
 
-# ✅ Paso 7: Corregir observaciones
+# Paso 7: Corregir observaciones
 
 Si el docente o un compañero encuentra algo por mejorar, simplemente realiza nuevos cambios en la misma rama.
 
@@ -154,7 +154,7 @@ El Pull Request se actualizará automáticamente con los nuevos cambios.
 
 ---
 
-# 🎉 Paso 8: Integrar los cambios
+# Paso 8: Integrar los cambios
 
 Una vez aprobado el Pull Request, los cambios podrán fusionarse con la rama principal (`main`).
 
@@ -162,7 +162,7 @@ Esto significa que la nueva funcionalidad pasa a formar parte oficial del proyec
 
 ---
 
-## 💡 Buenas prácticas
+## Buenas prácticas
 
 * Trabaja siempre en una rama distinta de `main`.
 * Haz commits pequeños y frecuentes.
@@ -173,7 +173,7 @@ Esto significa que la nueva funcionalidad pasa a formar parte oficial del proyec
 
 ---
 
-## ⚠️ Errores comunes
+## Errores comunes
 
 * Trabajar directamente sobre `main`.
 * Hacer un único commit con cientos de cambios.
@@ -183,7 +183,7 @@ Esto significa que la nueva funcionalidad pasa a formar parte oficial del proyec
 
 ---
 
-## 📌 Resumen
+## Resumen
 
 El flujo de trabajo que utilizaremos durante el curso será:
 
@@ -200,7 +200,7 @@ Seguir este proceso te ayudará a trabajar de forma organizada y te preparará p
 
 ---
 
-## 📝 Actividad para el estudiante
+## Actividad para el estudiante
 
 Realiza el siguiente ejercicio:
 
