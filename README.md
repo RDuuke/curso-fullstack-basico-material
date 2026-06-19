@@ -80,6 +80,8 @@ Durante el curso se trabajarán los siguientes temas:
 14. Organización de un proyecto.
 15. Presentación del proyecto final.
 
+> **Estado actual:** el módulo de **Git y GitHub** (temas 2 a 7) ya está disponible en `recursos/git-github/`. El resto de los temas se irá publicando a medida que avance el curso.
+
 ---
 
 ## Herramientas del curso
@@ -100,25 +102,32 @@ No es necesario dominar todas estas herramientas desde el inicio. Las iremos apr
 
 ---
 
-## Estructura inicial del repositorio
+## Estructura actual del repositorio
 
-La estructura inicial del repositorio será:
+Hoy el repositorio contiene lo siguiente:
 
 ```txt
 curso-fullstack-basico-material/
 ├── README.md
-├── clases/
-├── tareas/
-├── ejercicios/
+├── resumen-ramas-commits.md
 ├── recursos/
-└── proyecto-guia/
+│   └── git-github/        # Módulo de Git y GitHub (disponible)
+└── tareas/                # Entregas de práctica
+```
+
+A medida que avance el curso se irán agregando estas carpetas (próximamente):
+
+```txt
+├── clases/                # próximamente
+├── ejercicios/            # próximamente
+└── proyecto-guia/         # próximamente
 ```
 
 ---
 
 ## Descripción de carpetas
 
-### `clases/`
+### `clases/` (próximamente)
 
 Contendrá el material principal de cada clase.
 
@@ -139,7 +148,7 @@ Cada tarea tendrá su propio archivo con:
 
 ---
 
-### `ejercicios/`
+### `ejercicios/` (próximamente)
 
 Contendrá ejercicios cortos para practicar conceptos específicos.
 
@@ -159,7 +168,7 @@ Contendrá material de apoyo como:
 
 ---
 
-### `proyecto-guia/`
+### `proyecto-guia/` (próximamente)
 
 Contendrá información relacionada con el proyecto principal del curso: el sistema básico de reservas.
 
