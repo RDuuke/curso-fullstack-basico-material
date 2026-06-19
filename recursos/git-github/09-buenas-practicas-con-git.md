@@ -1,6 +1,6 @@
 # 09. Buenas prácticas con Git
 
-## 📖 Introducción
+## Introducción
 
 Git es una herramienta muy poderosa, pero utilizarla correctamente marca una gran diferencia en la calidad de un proyecto.
 
@@ -10,7 +10,7 @@ En este capítulo aprenderás algunos hábitos que utilizan equipos profesionale
 
 ---
 
-## 🎯 Objetivos de aprendizaje
+## Objetivos de aprendizaje
 
 Al finalizar este tema podrás:
 
@@ -21,11 +21,11 @@ Al finalizar este tema podrás:
 
 ---
 
-# 📝 Escribe buenos mensajes de commit
+# Escribe buenos mensajes de commit
 
 Cada commit representa un cambio en el proyecto, por lo que su mensaje debe explicar claramente qué se hizo.
 
-## ✅ Buenos ejemplos
+## Buenos ejemplos
 
 ```text
 Agrega formulario de registro
@@ -34,7 +34,7 @@ Actualiza estilos de la página principal
 Crea endpoint para listar usuarios
 ```
 
-## ❌ Malos ejemplos
+## Malos ejemplos
 
 ```text
 Cambios
@@ -48,7 +48,7 @@ Recuerda: un buen mensaje permite que cualquier persona entienda rápidamente el
 
 ---
 
-# 🌿 Trabaja siempre con ramas
+# Trabaja siempre con ramas
 
 Evita realizar cambios directamente sobre `main`.
 
@@ -64,7 +64,7 @@ Al finalizar, podrás integrar esa rama mediante un Pull Request.
 
 ---
 
-# 💾 Haz commits pequeños y frecuentes
+# Haz commits pequeños y frecuentes
 
 No esperes a terminar todo el proyecto para hacer un único commit.
 
@@ -81,7 +81,7 @@ Esto facilita volver atrás si ocurre algún problema.
 
 ---
 
-# 🔄 Mantén tu repositorio actualizado
+# Mantén tu repositorio actualizado
 
 Antes de comenzar una tarea, descarga los cambios más recientes:
 
@@ -94,7 +94,7 @@ Así reduces la posibilidad de encontrar conflictos al integrar tu trabajo.
 
 ---
 
-# 👀 Revisa tus cambios antes de confirmar
+# Revisa tus cambios antes de confirmar
 
 Antes de realizar un commit puedes verificar el estado del repositorio:
 
@@ -112,7 +112,7 @@ Dedicar unos segundos a esta revisión puede evitar errores innecesarios.
 
 ---
 
-# 🚫 No subas archivos innecesarios
+# No subas archivos innecesarios
 
 Existen archivos que normalmente no deberían almacenarse en Git, por ejemplo:
 
@@ -135,7 +135,7 @@ dist/
 
 ---
 
-# 🤝 Piensa en tu equipo
+# Piensa en tu equipo
 
 Cuando trabajas con Git no solo escribes código para ti.
 
@@ -150,7 +150,7 @@ Un repositorio organizado beneficia a todo el equipo.
 
 ---
 
-## 💡 Buenas prácticas recomendadas
+## Buenas prácticas recomendadas
 
 * Usa nombres descriptivos para las ramas.
 * Escribe mensajes de commit claros.
@@ -162,7 +162,7 @@ Un repositorio organizado beneficia a todo el equipo.
 
 ---
 
-## ⚠️ Errores comunes
+## Errores comunes
 
 * Trabajar directamente sobre `main`.
 * Hacer un solo commit con cientos de cambios.
@@ -172,7 +172,7 @@ Un repositorio organizado beneficia a todo el equipo.
 
 ---
 
-## 📌 Resumen
+## Resumen
 
 Las buenas prácticas con Git ayudan a mantener proyectos organizados, facilitan el trabajo colaborativo y reducen errores durante el desarrollo.
 
@@ -180,7 +180,7 @@ Pequeños hábitos, como escribir buenos mensajes de commit o trabajar en ramas 
 
 ---
 
-## 📝 Actividad para el estudiante
+## Actividad para el estudiante
 
 Imagina que desarrollaste una aplicación para gestionar tareas.
 

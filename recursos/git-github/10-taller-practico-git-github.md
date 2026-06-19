@@ -11,6 +11,7 @@ Al finalizar este taller, la estudiante deberá poder:
 * Ejecutar el flujo de trabajo completo sin ayuda.
 * Crear una rama, hacer commits claros y subirlos a GitHub.
 * Crear un Pull Request y atender la revisión.
+* Provocar y resolver un conflicto manualmente.
 * Integrar el trabajo a `main` y limpiar la rama.
 
 ---
@@ -115,7 +116,85 @@ Si tienes dudas, repasa el tema 06 (Pull Requests).
 
 ---
 
-## Paso 7. Atiende la revisión
+## Paso 7. Provoca y resuelve un conflicto
+
+Los conflictos son parte normal del trabajo en equipo. En este paso vas a provocar uno a propósito para practicar cómo resolverlo (ver tema 07).
+
+1. Asegúrate de estar en tu rama de tarea y modifica la **primera línea** de `taller.md`. Por ejemplo, déjala así:
+
+```txt
+# Mi taller de Git (versión rama)
+```
+
+Guarda el cambio con un commit:
+
+```bash
+git add taller.md
+git commit -m "Cambiar el título del taller en la rama"
+```
+
+2. Cámbiate a `main` y modifica **la misma primera línea** con un texto diferente:
+
+```bash
+git checkout main
+```
+
+```txt
+# Mi taller de Git (versión main)
+```
+
+```bash
+git add taller.md
+git commit -m "Cambiar el título del taller en main"
+```
+
+3. Intenta integrar tu rama en `main`. Como ambas versiones cambiaron la misma línea, Git generará un conflicto:
+
+```bash
+git merge tarea/taller-git-github
+```
+
+4. Revisa los archivos en conflicto:
+
+```bash
+git status
+```
+
+5. Abre `taller.md`. Verás las marcas del conflicto:
+
+```txt
+<<<<<<< HEAD
+# Mi taller de Git (versión main)
+=======
+# Mi taller de Git (versión rama)
+>>>>>>> tarea/taller-git-github
+```
+
+6. Edita el archivo: elimina las marcas (`<<<<<<<`, `=======`, `>>>>>>>`) y deja únicamente el texto que quieres conservar. Por ejemplo:
+
+```txt
+# Mi taller de Git
+```
+
+7. Marca el conflicto como resuelto y finaliza el merge:
+
+```bash
+git add taller.md
+git commit
+```
+
+8. Verifica que todo quedó en orden:
+
+```bash
+git status
+git log --oneline
+```
+
+Si te trabas, repasa el tema 07 (Conflictos y cómo resolverlos).
+
+---
+
+## Paso 8. Atiende la revisión
 
 Si el docente deja comentarios pidiendo cambios, aplícalos en la **misma rama**:
 
@@ -129,7 +208,7 @@ El Pull Request se actualiza automáticamente.
 
 ---
 
-## Paso 8. Integra y limpia
+## Paso 9. Integra y limpia
 
 Cuando el Pull Request sea aprobado y se haga el merge, actualiza tu copia local y elimina la rama:
 
@@ -150,6 +229,7 @@ Marca cada punto cuando lo completes:
 * [ ] Hice al menos dos commits con mensajes descriptivos.
 * [ ] Subí mi rama con `git push`.
 * [ ] Creé un Pull Request hacia `main`.
+* [ ] Provoqué y resolví un conflicto manualmente.
 * [ ] Atendí los comentarios de la revisión (si los hubo).
 * [ ] La rama se integró a `main` mediante el merge.
 
@@ -160,6 +240,7 @@ Marca cada punto cuando lo completes:
 * Un Pull Request hacia `main` desde tu rama `tarea/taller-git-github`.
 * El archivo `taller.md` con tu resumen del módulo.
 * Al menos dos commits con mensajes claros.
+* Un conflicto provocado y resuelto (captura del `git status` antes y después).
 
 ---
 
@@ -172,6 +253,7 @@ Marca cada punto cuando lo completes:
 | La rama fue subida correctamente a GitHub             |        |
 | El Pull Request tiene título y descripción claros     |        |
 | La dirección del PR es correcta (`base: main`)        |        |
+| Provocó y resolvió un conflicto correctamente         |        |
 | Atendió los comentarios de la revisión                |        |
 
 ---
