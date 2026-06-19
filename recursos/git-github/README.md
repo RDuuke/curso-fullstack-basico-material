@@ -21,6 +21,8 @@ Al finalizar esta sección, la estudiante deberá poder:
 * Crear y cambiar entre ramas.
 * Subir cambios a GitHub.
 * Traer cambios desde GitHub.
+* Crear y atender Pull Requests.
+* Resolver conflictos.
 * Comprender el flujo básico de trabajo del curso.
 
 ---
@@ -34,6 +36,11 @@ Al finalizar esta sección, la estudiante deberá poder:
 | 03    | [Comandos básicos de Git](./03-comandos-basicos.md)                       | Introducción práctica a comandos como `git status`, `git add`, `git commit`, `git log`, `git diff`, `git branch` y `git checkout`.     |
 | 04    | [Flujo Push y Pull](./04-flujo-push-pull.md)                              | Explicación del flujo para sincronizar cambios entre el computador y GitHub usando `push` y `pull`.                                    |
 | 05    | [Ramas y commits](./05-ramas-y-commits.md)                                | Guía para entender ramas, commits, nombres de ramas, mensajes de commit y buenas prácticas de trabajo.                                 |
+| 06    | [Pull Requests](./06-pull-requests.md)                                    | Cómo proponer e integrar cambios mediante Pull Requests: creación en GitHub, partes del PR, revisión, correcciones y merge.            |
+| 07    | [Conflictos y cómo resolverlos](./07-conflictos-y-como-resolverlos.md)    | Qué es un conflicto, cuándo aparece, cómo identificarlo y resolverlo paso a paso.                                                       |
+| 08    | [Flujo de trabajo del curso](./08-flujo-de-trabajo-del-curso.md)          | El flujo completo de trabajo del curso, desde actualizar `main` hasta integrar la tarea mediante un Pull Request.                       |
+| 09    | [Buenas prácticas con Git](./09-buenas-practicas-con-git.md)              | Recomendaciones para escribir buenos commits, trabajar con ramas, usar `.gitignore` y colaborar en equipo.                             |
+| 10    | [Taller práctico de Git y GitHub](./10-taller-practico-git-github.md)     | Taller integrador que practica de principio a fin todo el flujo de trabajo del módulo. Funciona también como tarea entregable.          |
 
 ---
 
@@ -47,6 +54,11 @@ Se recomienda estudiar los recursos en este orden:
 03 - Comandos básicos
 04 - Flujo Push y Pull
 05 - Ramas y commits
+06 - Pull Requests
+07 - Conflictos y cómo resolverlos
+08 - Flujo de trabajo del curso
+09 - Buenas prácticas con Git
+10 - Taller práctico de Git y GitHub
 ```
 
 Cada archivo construye sobre el anterior, por eso es importante no saltarse pasos.
