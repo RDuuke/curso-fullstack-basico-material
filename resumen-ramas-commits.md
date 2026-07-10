@@ -26,4 +26,7 @@ git checkout -b "name new branch"
 git status
 git add .
 git commit -m "mensaje"
-git push origin main
+git push origin "name new branch"
+
+Julio 10
+Se agrega esta linea para ver como es el manejo de conflictos
