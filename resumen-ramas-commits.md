@@ -28,5 +28,7 @@ git add .
 git commit -m "mensaje"
 git push origin "name new branch"
 
-Julio diez
-Se trabaja el conflicto en git 
+
+Julio 10
+Se agrega esta linea para ver como es el manejo de conflictos
+
