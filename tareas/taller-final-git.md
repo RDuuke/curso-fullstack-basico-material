@@ -1,0 +1,1 @@
+En este taller aprendi el uso de git y git hub, como darle un buen manejo a las diferentes herramientas.
